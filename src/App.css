@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(123, 95, 160);
+  font-size: 30px;
+  gap: 25px;
+  padding: 25px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#conjunto {
+  display: flex;
+  gap: 98px;
+  padding-top: 30px;
+  padding-block-end: 30px;
+}
+
+button {
+  width: 13vw;
+  height: 26vh;
+  background: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+
+.backs {
+  width: 100%; 
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#papel-img { background-image: url('./assets/papel.png'); 
+
+}
+#pedra-img { background-image: url('./assets/pedra.png'); 
+
+}
+#tesoura-img { background-image: url('./assets/tesoura.png'); 
+}
+
+#resultado{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 25px;
+}
+
+#coiso1{
+  font-size: 30px;
+  gap: 25px;
+  padding: 25px;
+}
+
+#coiso2{
+  font-size: 30px;
+  gap: 25px;
+  padding: 25px;
+}
+
+#coiso3{
+  font-size: 30px;
+  gap: 25px;
+  padding: 25px;
+}
+
